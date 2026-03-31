@@ -70,6 +70,10 @@ body {
   .hero-text-col {
     height: auto !important;
   }
+  .hero-text-col p {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+  }
 
   /* About */
   .about-section { padding: 60px 6% !important; }

@@ -69,9 +69,10 @@ body {
   }
   .hero-photo-col img {
     width: 100% !important;
-    height: auto !important;
-    max-height: none !important;
-    object-fit: contain !important;
+    height: 65vw !important;
+    max-height: 280px !important;
+    object-fit: cover !important;
+    object-position: center top !important;
   }
   .hero-text-col {
     height: auto !important;

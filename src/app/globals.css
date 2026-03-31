@@ -72,7 +72,7 @@ body {
     height: 65vw !important;
     max-height: 280px !important;
     object-fit: cover !important;
-    object-position: center top !important;
+    object-position: center 25% !important;
   }
   .hero-text-col {
     height: auto !important;

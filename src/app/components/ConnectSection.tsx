@@ -7,7 +7,7 @@ import { supabase } from "@/lib/supabase";
 const CONTENT = {
   zh: {
     title: "让我们保持联系",
-    subtitle: "欢迎随时联系，无论是合作、交流还是只是打个招呼。",
+    subtitle: "欢迎随时联系，无论是合作、交流，还是只是打个招呼。",
     status: "目前我在雅典读研，2026年毕业后开放全职机会。现阶段也欢迎品牌策略、跨文化营销相关的顾问合作或项目咨询。",
     namePlaceholder: "姓名",
     emailPlaceholder: "邮箱",
@@ -19,7 +19,7 @@ const CONTENT = {
   },
   en: {
     title: "Let's Keep in Touch",
-    subtitle: "I'm always open to interesting conversations.",
+    subtitle: "Always open to a good conversation — whether it's about brand strategy, a project, or just saying hi.",
     status: "I'm currently completing my MSc in Athens, graduating in 2026. Open to full-time opportunities after graduation — and available now for consulting or project-based work in brand strategy and cross-cultural marketing.",
     namePlaceholder: "Name",
     emailPlaceholder: "Email",

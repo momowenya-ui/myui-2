@@ -57,15 +57,19 @@ body {
   .desktop-nav { display: none !important; }
 
   /* Hero */
-  .hero-main { padding: 40px 6% !important; }
+  .hero-main { padding: 16px 20px !important; }
   .hero-section {
     grid-template-columns: 1fr !important;
-    gap: 28px !important;
+    gap: 20px !important;
   }
   .hero-photo-col {
     order: -1;
-    height: 72vw !important;
-    max-height: 360px;
+    height: 55vw !important;
+    max-height: 55vw !important;
+  }
+  .hero-photo-col img {
+    height: 55vw !important;
+    max-height: 55vw !important;
   }
   .hero-text-col {
     height: auto !important;

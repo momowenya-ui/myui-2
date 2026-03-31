@@ -25,9 +25,11 @@ export default function AboutSection() {
   return (
     <section
       id="about"
+      className="about-section"
       style={{ padding: "80px 10%", background: "#FAF8F4" }}
     >
       <div
+        className="about-grid"
         style={{
           display: "grid",
           gridTemplateColumns: "45% 50%",
@@ -40,6 +42,7 @@ export default function AboutSection() {
         {/* 左栏：竖版照片 */}
         <div>
           <div
+            className="about-photo-wrap"
             style={{
               width: "100%",
               height: "600px",

@@ -126,6 +126,7 @@ export default function JournalSection({ postsByCategory }: { postsByCategory: P
   return (
     <section
       id="journal"
+      className="journal-section"
       style={{ padding: "100px 10%", background: "#FAF8F4" }}
     >
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>

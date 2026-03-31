@@ -44,9 +44,11 @@ export default function ProfileSection() {
   return (
     <section
       id="profile"
+      className="profile-section"
       style={{ padding: "100px 10%", background: "#F5F2EC" }}
     >
       <div
+        className="profile-grid"
         style={{
           display: "grid",
           gridTemplateColumns: "40% 55%",

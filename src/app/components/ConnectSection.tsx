@@ -22,6 +22,7 @@ export default function ConnectSection() {
   return (
     <section
       id="connect"
+      className="connect-section"
       style={{ padding: "100px 10%", background: "#F5F2EC" }}
     >
       <div style={{ maxWidth: 600, margin: "0 auto", textAlign: "center" }}>

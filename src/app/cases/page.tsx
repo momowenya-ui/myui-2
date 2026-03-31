@@ -210,7 +210,7 @@ export default function CasesPage() {
     <div style={{ minHeight: "100vh", background: "#FAF8F4" }}>
       <NavBar />
 
-      <div style={{ padding: "80px 10%", maxWidth: "1200px", margin: "0 auto" }}>
+      <div className="cases-page" style={{ padding: "80px 10%", maxWidth: "1200px", margin: "0 auto" }}>
         {/* 页面标题区 */}
         <div style={{ marginBottom: 64 }}>
           <div

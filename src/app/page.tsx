@@ -30,13 +30,13 @@ export default async function Home() {
       <NavBar />
 
       {/* Hero 区域 */}
-      <main style={{ padding: "60px 10%" }}>
+      <main className="hero-main" style={{ padding: "60px 10%" }}>
         <section
-          className="w-full max-w-[1400px]"
+          className="hero-section w-full max-w-[1400px]"
           style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px" }}
         >
           {/* 左栏：文字垂直居中 */}
-          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", height: "500px" }}>
+          <div className="hero-text-col" style={{ display: "flex", flexDirection: "column", justifyContent: "center", height: "500px" }}>
             <h1
               className="font-serif"
               style={{ fontSize: "1.4rem", lineHeight: 1.4, color: "#241f1a", margin: 0 }}
@@ -58,6 +58,7 @@ export default async function Home() {
 
           {/* 右栏：照片占位区域 */}
           <div
+            className="hero-photo-col"
             style={{
               width: "100%",
               height: "500px",

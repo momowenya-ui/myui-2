@@ -14,8 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "个人网站 | Kinfolk 风格",
-  description: "一份米白留白风格的个人主页，基于 Next.js 实现。",
+  title: {
+    default: "Wen Qing · 品牌策略",
+    template: "%s | Wen Qing",
+  },
+  description: "品牌策略师，跨文化市场营销。Brand strategist and cross-cultural marketer.",
 };
 
 export default function RootLayout({

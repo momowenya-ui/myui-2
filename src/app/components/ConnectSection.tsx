@@ -8,7 +8,7 @@ const CONTENT = {
   zh: {
     title: "让我们保持联系",
     subtitle: "欢迎随时联系，无论是合作、交流，还是只是打个招呼。",
-    status: "目前我在雅典读研，2026年毕业后开放全职机会。现阶段也欢迎品牌策略、跨文化营销相关的顾问合作或项目咨询。",
+    status: "",
     namePlaceholder: "姓名",
     emailPlaceholder: "邮箱",
     messagePlaceholder: "留言",
@@ -20,7 +20,7 @@ const CONTENT = {
   en: {
     title: "Let's Keep in Touch",
     subtitle: "Always open to a good conversation — whether it's about brand strategy, a project, or just saying hi.",
-    status: "I'm currently completing my MSc in Athens, graduating in 2026. Open to full-time opportunities after graduation — and available now for consulting or project-based work in brand strategy and cross-cultural marketing.",
+    status: "",
     namePlaceholder: "Name",
     emailPlaceholder: "Email",
     messagePlaceholder: "Message",
@@ -102,11 +102,6 @@ export default function ConnectSection() {
         {/* 副标题 */}
         <div style={{ fontSize: "1rem", color: "#9a9590", marginBottom: 24 }}>
           {t.subtitle}
-        </div>
-
-        {/* 目前状态 */}
-        <div style={{ fontSize: "0.95rem", color: "#4a4744", lineHeight: 1.8, marginBottom: 48 }}>
-          {t.status}
         </div>
 
         {/* 联系表单 */}

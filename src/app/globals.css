@@ -115,4 +115,20 @@ body {
 
   /* Typography */
   h1 { font-size: 1.15rem !important; }
+
+  /* Body text — global mobile baseline */
+  .about-section p,
+  .profile-section p,
+  .journal-section p,
+  .connect-section p {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* About & Profile last-p no extra bottom margin */
+  .about-section p:last-of-type,
+  .profile-section p:last-of-type {
+    margin-bottom: 0 !important;
+  }
 }

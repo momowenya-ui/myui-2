@@ -16,20 +16,20 @@ const TAGS = [
 const SECTIONS = {
   zh: [
     {
-      label: "创业经历",
-      paras: [
-        "我是一个创业者。2021年，我创立了品牌 Thinla，一个专注于跨境出海的 KOL 营销平台。",
-        "品牌视觉是认真做的。从零开始设计 logo，搭建品牌体系，再把它推向市场。这个过程让我第一次完整地经历了一件事：审美是可以被系统化的，用户行为是可以被理解的，商业逻辑是可以被设计的。",
-        "最难的一关，是让客户明白我们在做什么。跨境出海的 KOL 营销平台化，在那个时候还是一个新事物，创新本身就是这件事最大的魅力所在。",
-        "直到 2025 年公司被收购，这一段故事有了一个结尾。未来也许更有意思的事情，还在前面。",
-      ],
-    },
-    {
       label: "行业视角",
       paras: [
         "我的背景横跨品牌策略、跨文化传播与创业实践。我亲历了中国制造业从传统贸易到 DTC 出海的整个转型周期——从亚马逊到 Shopify 独立站生态，从跨境支付到 BNPL 的普及，这是属于中国供应链伙伴的历史性机会，也让我深刻理解：出海不只是渠道的延伸，而是一次完整的市场重建。",
         "真正的国际化，需要读懂不同国家消费者的行为逻辑，有时甚至需要重新定义市场规则。我认同一个理念：消费者不是在购买产品，而是在雇佣一个产品来完成某项任务。产品会脱离功能本身，赋能情绪价值与社会认同——这正是优秀出海品牌需要建立的结构化思维。",
         "在快速变动的市场里，我越来越认同市场敏捷性的重要：清晰的目标、跨职能协作的团队、快速试错的执行节奏。这需要 leadership 层面的真正支持，以及团队在竞争中保持持续迭代的能力。",
+      ],
+    },
+    {
+      label: "创业经历",
+      paras: [
+        "2021年，我创立了品牌 Thinla，一个专注于跨境出海的 KOL 营销平台。",
+        "品牌视觉是认真做的。从零开始设计 logo，搭建品牌体系，再把它推向市场。这个过程让我第一次完整地经历了一件事：审美是可以被系统化的，用户行为是可以被理解的，商业逻辑是可以被设计的。",
+        "最难的一关，是让客户明白我们在做什么。跨境出海的 KOL 营销平台化，在那个时候还是一个新事物，创新本身就是这件事最大的魅力所在。",
+        "直到 2025 年公司被收购，这一段故事有了一个结尾。未来也许更有意思的事情，还在前面。",
       ],
     },
     {
@@ -44,20 +44,20 @@ const SECTIONS = {
   ],
   en: [
     {
-      label: "Founder",
-      paras: [
-        "I'm a founder. In 2021, I created Thinla — a KOL marketing platform focused on helping Chinese brands expand globally.",
-        "The brand identity was built with care. We designed the logo from scratch, built the entire brand system, then took it to market. That process gave me my first complete experience of something I now believe deeply: aesthetics can be systematized, user behavior can be understood, and business logic can be designed.",
-        "The hardest part was helping clients understand what we were doing. Platformized KOL marketing for cross-border expansion was still a new concept at the time. That's exactly what made it worth doing.",
-        "In 2025, the company was acquired. One chapter closed. Whatever comes next might be even more interesting.",
-      ],
-    },
-    {
       label: "Perspective",
       paras: [
         "My background spans brand strategy, cross-cultural communication, and entrepreneurial practice. I lived through China's full shift from traditional trade to DTC global expansion — from Amazon to Shopify ecosystems, from cross-border payments to the rise of BNPL. This transformation taught me that going global isn't just a channel decision. It's a full market rebuild.",
         "Real internationalization means understanding how consumers in different countries think — and sometimes redefining the rules entirely. I believe consumers don't buy products; they hire a product to get a job done. A great product transcends its function to deliver emotional resonance and social identity. That's the structural thinking every serious global brand needs.",
         "In fast-moving markets, I've come to believe deeply in marketing agility: clear objectives, cross-functional teams, and a culture of rapid iteration. This requires genuine leadership support and the organizational ability to keep learning faster than the competition.",
+      ],
+    },
+    {
+      label: "Founder",
+      paras: [
+        "In 2021, I created Thinla — a KOL marketing platform focused on helping Chinese brands expand globally.",
+        "The brand identity was built with care. We designed the logo from scratch, built the entire brand system, then took it to market. That process gave me my first complete experience of something I now believe deeply: aesthetics can be systematized, user behavior can be understood, and business logic can be designed.",
+        "The hardest part was helping clients understand what we were doing. Platformized KOL marketing for cross-border expansion was still a new concept at the time. That's exactly what made it worth doing.",
+        "In 2025, the company was acquired. One chapter closed. Whatever comes next might be even more interesting.",
       ],
     },
     {

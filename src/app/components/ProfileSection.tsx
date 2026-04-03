@@ -5,11 +5,11 @@ import Image from "next/image";
 import { useLang } from "@/contexts/LangContext";
 
 const PHOTOS = [
-  { src: "/Prague-1.jpg",  rotate: -3,   top: 10,  left: 0   },
-  { src: "/Prague-2.jpg",  rotate: 2,    top: 40,  left: 95  },
-  { src: "/Progue-4.jpg",  rotate: -1.5, top: 15,  left: 200 },
-  { src: "/Prague-6.jpg",  rotate: 3,    top: 150, left: 20  },
-  { src: "/Prague-7.jpg",  rotate: -2,   top: 130, left: 155 },
+  { src: "/photos/Prague-1.jpg", rotate: -2,   top: 0,   left: 0   },
+  { src: "/photos/Prague-2.jpg", rotate: 2.5,  top: 30,  left: 160 },
+  { src: "/photos/Prague-4.jpg", rotate: -1.5, top: 10,  left: 330 },
+  { src: "/photos/Prague-6.jpg", rotate: 3,    top: 200, left: 60  },
+  { src: "/photos/Prague-7.jpg", rotate: -2.5, top: 220, left: 260 },
 ];
 
 function PhotoWall() {
@@ -17,7 +17,7 @@ function PhotoWall() {
   return (
     <div
       className="photo-wall"
-      style={{ position: "relative", height: 370, marginTop: 32 }}
+      style={{ position: "relative", height: 480, marginTop: 32 }}
     >
       {PHOTOS.map((photo, i) => (
         <div
@@ -29,10 +29,10 @@ function PhotoWall() {
             position: "absolute",
             top: photo.top,
             left: photo.left,
-            width: 170,
-            height: 210,
+            width: 160,
+            height: 200,
             border: "4px solid #ffffff",
-            boxShadow: "2px 4px 12px rgba(0,0,0,0.12)",
+            boxShadow: "2px 4px 16px rgba(0,0,0,0.15)",
             borderRadius: 4,
             overflow: "hidden",
             transform: `rotate(${photo.rotate}deg) scale(${hovered === i ? 1.05 : 1})`,

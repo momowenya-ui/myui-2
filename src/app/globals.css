@@ -125,7 +125,7 @@ body {
   .photo-wall-item {
     position: static !important;
     width: 100% !important;
-    height: 150px !important;
+    height: 44vw !important;
     top: auto !important;
     left: auto !important;
   }

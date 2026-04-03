@@ -4,12 +4,17 @@ import { useState } from "react";
 import Image from "next/image";
 import { useLang } from "@/contexts/LangContext";
 
+// w/h reflect each photo's actual aspect ratio
+// landscape 4:3 → 220×165  |  portrait 3:4 → 150×200
 const PHOTOS = [
-  { src: "/photos/Prague-1.jpg", rotate: -2,   top: 0,   left: 0   },
-  { src: "/photos/Prague-2.jpg", rotate: 2.5,  top: 30,  left: 160 },
-  { src: "/photos/Prague-4.jpg", rotate: -1.5, top: 10,  left: 330 },
-  { src: "/photos/Prague-6.jpg", rotate: 3,    top: 200, left: 60  },
-  { src: "/photos/Prague-7.jpg", rotate: -2.5, top: 220, left: 260 },
+  // Row 1: landscape + portrait
+  { src: "/photos/Prague-1.jpg", w: 220, h: 165, rotate: -2,   top: 0,   left: 0   },
+  { src: "/photos/Prague-2.jpg", w: 150, h: 200, rotate: 2.5,  top: 20,  left: 215 },
+  // Row 2: portrait + portrait
+  { src: "/photos/Prague-4.jpg", w: 150, h: 200, rotate: -1.5, top: 200, left: 15  },
+  { src: "/photos/Prague-6.jpg", w: 150, h: 200, rotate: 3,    top: 185, left: 200 },
+  // Row 3: landscape centered
+  { src: "/photos/Prague-7.jpg", w: 220, h: 165, rotate: -1.5, top: 410, left: 60  },
 ];
 
 function PhotoWall() {
@@ -17,7 +22,7 @@ function PhotoWall() {
   return (
     <div
       className="photo-wall"
-      style={{ position: "relative", height: 480, marginTop: 32 }}
+      style={{ position: "relative", height: 600, marginTop: 32 }}
     >
       {PHOTOS.map((photo, i) => (
         <div
@@ -29,14 +34,14 @@ function PhotoWall() {
             position: "absolute",
             top: photo.top,
             left: photo.left,
-            width: 160,
-            height: 200,
+            width: photo.w,
+            height: photo.h,
             border: "4px solid #ffffff",
             boxShadow: "2px 4px 16px rgba(0,0,0,0.15)",
             borderRadius: 4,
             overflow: "hidden",
             transform: `rotate(${photo.rotate}deg) scale(${hovered === i ? 1.05 : 1})`,
-            transition: "transform 0.25s ease, z-index 0s",
+            transition: "transform 0.25s ease",
             zIndex: hovered === i ? 10 : i + 1,
             cursor: "pointer",
           }}
@@ -46,7 +51,7 @@ function PhotoWall() {
             alt={`photo-${i + 1}`}
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
-            sizes="180px"
+            sizes="240px"
           />
         </div>
       ))}

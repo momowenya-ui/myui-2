@@ -14,32 +14,55 @@ const TAGS = [
   "项目统筹 · Project Operations",
 ];
 
-const BODY = {
+const CONTENT = {
   zh: {
-    paras: [
-      "我的背景横跨品牌策略、跨文化传播与创业实践。我从零搭建过推广体系、主导过完整的品牌叙事，也带领过20人团队从商业模式搭建到落地执行的全过程。",
-      "我亲历了中国制造业从传统贸易到DTC出海的整个转型周期。从亚马逊到Shopify独立站生态，随之而来的Shoplazza、Shopline，再到店小蜜等ERP系统的兴起，从全球物流网络的成熟到跨境支付、空中云汇，再到BNPL支付业务的普及，这是属于中国供应链伙伴的历史性机会，也让我深刻理解：出海不只是渠道的延伸，而是一次完整的市场重建。",
-      "真正的国际化，需要清晰的目标、市场scope以及定义自己的优势，需要读懂不同国家消费者的行为逻辑，有时甚至需要重新定义市场，定义规则。我认同一个理念：消费者不是在购买产品，而是在雇佣一个产品来完成某项任务。因此产品会脱离功能本身，赋能情绪价值与社会认同，这正是优秀出海品牌需要建立的结构化思维。",
-      "我擅长在复杂的跨文化语境里找到品牌的正确声音，理解不同市场的消费逻辑，制定有针对性的内容与传播策略，并带队完整实施。",
-      "在快速变动的市场里，我越来越认同市场敏捷性的重要：有清晰的目标，有跨职能协作的团队，有快速试错的执行节奏。这需要leadership层面的真正支持，员工的多技能发展，以及团队在充满竞争的市场中保持持续迭代的能力。",
-      "我在朝着一个能掌握全局的角色走：策略、声音、方向，不只是执行，而是决策。我想打造对人真正有意义的品牌，用一种与我自己一致的方式。",
+    headline: "我是一个用系统思考，用故事感受的市场人。",
+    tagsNote: "目前就读于雅典工商管理学院，市场营销研究生在读。",
+    thinlaTitle: "Thinla",
+    thinlaParas: [
+      "Thinla 是我和朋友一起创立的品牌营销机构。这个名字我也很喜欢，念起来好听。",
+      "品牌视觉是认真做的。紫色为主，黄色点缀，想呈现一种既有潮流感又很温柔的气质。从零开始设计 logo，搭建品牌体系，再把它推向市场。这个过程让我第一次完整地经历了一件事：审美是可以被系统化的，用户行为是可以被理解的，商业逻辑是可以被设计的。",
+      "最难的一关，是让客户明白 Thinla 在做什么。跨境出海的 KOL 营销平台化，在那个时候还是一个新事物，创新本身就是这件事最大的魅力所在。",
+      "直到 2025 年 Thinla 被收购，这一段故事有了一个结尾。未来也许更有意思的事情，还在前面。",
+    ],
+    europeTitle: "欧洲",
+    europeParas: [
+      "2024 年底，我来到雅典读研。但雅典只是一个起点。",
+      `这一年多，我走过了意大利的罗马、梵蒂冈、佛罗伦萨，站在斗兽场前感受两千年的重量，在圣母百花大教堂看见文艺复兴如何把美变成一种信仰。然后去了西班牙，在巴塞罗那看高迪——圣家堂和巴特罗之家，让我第一次真正理解什么叫"建筑也有生命"。布拉格的老城广场和查理大桥，让我发现时间在有些地方真的走得慢一些。`,
+      "接下来我会去慕尼黑，然后又沿着法国南部走，里昂、阿维尼翁，再到马赛，在马赛会参加一场关于市场管理学的研讨会。我期待每一段旅行带给我的惊喜，在一个完全陌生的城市，和来自不同国家的人讨论同一个行业，我突然意识到，市场这件事是真的没有边界的。",
+      "走过这些地方，我开始真正理解，不同地方的人关心的事情真的不一样。这不是一句废话，而是一件需要亲身感受才能懂得的事。",
     ],
   },
   en: {
-    paras: [
-      "My background spans brand strategy, cross-cultural communication, and entrepreneurial practice. I've built marketing systems from scratch, led complete brand narratives, and managed a 20-person team through every stage — from business model to execution.",
-      "I lived through China's full transformation from traditional manufacturing trade to DTC global expansion. From Amazon to Shopify-based independent store ecosystems, to the rise of platforms like Shoplazza, Shopline, and ERP systems like DiaoXiaoMi, to the maturation of global logistics networks, cross-border payments, and the widespread adoption of BNPL — this has been a defining opportunity for Chinese supply chain businesses, and it taught me that going global isn't just a channel decision. It's a full market rebuild.",
-      "Real internationalization requires clarity of goals, market scope, and a clear sense of your own competitive advantage. It means understanding consumer behavior across different countries, and sometimes being willing to redefine the market — and the rules. I believe in one core idea: consumers don't buy products, they hire a product to get a job done. That means a great product transcends its functional value to deliver emotional resonance and social identity — and that's the structural thinking every serious global brand needs to build.",
-      "I specialize in finding the right brand voice across complex cultural contexts — understanding how different markets think, building targeted content and communication strategies, and leading teams to deliver end-to-end.",
-      "In fast-moving markets, I've come to deeply believe in marketing agility: clear objectives, cross-functional collaboration, and a culture of rapid iteration. This requires genuine leadership support, multi-skilled team members, and the organizational ability to keep iterating faster than the competition.",
-      "I'm moving toward a role where I can own the full picture: strategy, voice, direction — not just execution, but decision-making. I want to build brands that genuinely matter to people, in a way that stays true to who I am.",
+    headline: "I think in systems. I feel in stories.",
+    tagsNote: "Currently pursuing an MSc in Marketing at ALBA Graduate Business School, Athens.",
+    thinlaTitle: "Thinla",
+    thinlaParas: [
+      "Thinla was a brand marketing agency I co-founded with a friend. I've always loved the name — it just sounds right.",
+      "The visual identity was something we cared deeply about. Purple as the primary color, yellow as an accent — trendy but gentle. We built it from scratch: designing the logo, establishing the brand system, then taking it to market. That process was the first time I experienced the full arc of something: aesthetics can be systematized, user behavior can be understood, and business logic can be designed.",
+      "The hardest part was helping clients understand what we were doing. KOL marketing as a platformized solution for cross-border expansion was still a new concept at the time. That's exactly what made it exciting.",
+      "In 2025, Thinla was acquired. One chapter closed. Whatever comes next might be even more interesting.",
+    ],
+    europeTitle: "Europe",
+    europeParas: [
+      "I came to Athens in late 2024 to study. But Athens was just the beginning.",
+      "Over the past year, I've walked through Rome, Vatican City, and Florence — stood in front of the Colosseum and felt two thousand years of weight, and saw in the Cathedral of Santa Maria del Fiore how the Renaissance turned beauty into something sacred. In Barcelona, Gaudí's Sagrada Família and Casa Batlló made me understand for the first time what it means for architecture to breathe. In Prague, the Old Town Square and Charles Bridge showed me that time really does move slower in some places.",
+      "Next I'll be heading to Munich, then through the south of France — Lyon, Avignon, and on to Marseille, where I'll be attending a marketing management seminar. I look forward to what each new place brings. Sitting in a city I barely know, discussing the same industry with people from completely different countries, I realized that marketing genuinely has no borders.",
+      "Walking through all these places, I started to understand that people in different corners of the world genuinely care about different things. That's not a platitude. It's something you can only really know by being there.",
     ],
   },
 };
 
+const paraStyle: React.CSSProperties = {
+  fontSize: "1rem",
+  lineHeight: 1.9,
+  color: "#4a4744",
+  marginBottom: 20,
+};
+
 export default function ProfileSection() {
   const { lang } = useLang();
-  const t = BODY[lang];
+  const t = CONTENT[lang];
 
   return (
     <section
@@ -51,14 +74,14 @@ export default function ProfileSection() {
         className="profile-grid"
         style={{
           display: "grid",
-          gridTemplateColumns: "40% 55%",
+          gridTemplateColumns: "55% 40%",
           gap: "5%",
           alignItems: "flex-start",
           maxWidth: "1400px",
           margin: "0 auto",
         }}
       >
-        {/* 左栏 */}
+        {/* 左栏：叙事正文 */}
         <div>
           {/* 小标题：始终双语 */}
           <div
@@ -81,34 +104,58 @@ export default function ProfileSection() {
               fontFamily: "serif",
               lineHeight: 1.5,
               color: "#2C2420",
-              marginBottom: 32,
+              marginBottom: 40,
             }}
           >
-            {lang === "zh"
-              ? "我是一个用系统思考，用故事感受的市场人。"
-              : "I think in systems. I feel in stories."}
+            {t.headline}
           </div>
 
-          {/* 正文：随语言切换 */}
-          {t.paras.map((para, i) => (
-            <p
-              key={i}
-              style={{
-                fontSize: "1rem",
-                lineHeight: 1.9,
-                color: "#4a4744",
-                marginBottom: i < t.paras.length - 1 ? 24 : 0,
-              }}
-            >
+          {/* 第一段：Thinla 的故事 */}
+          <div
+            style={{
+              fontSize: "0.75rem",
+              letterSpacing: "0.12em",
+              color: "#C4714A",
+              fontWeight: 600,
+              textTransform: "uppercase",
+              marginBottom: 20,
+            }}
+          >
+            {t.thinlaTitle}
+          </div>
+          {t.thinlaParas.map((para, i) => (
+            <p key={`thinla-${i}`} style={{ ...paraStyle, marginBottom: i < t.thinlaParas.length - 1 ? 20 : 0 }}>
+              {para}
+            </p>
+          ))}
+
+          {/* 分隔线 */}
+          <div style={{ borderTop: "1px solid #DDD8CF", margin: "40px 0" }} />
+
+          {/* 第二段：欧洲游历 */}
+          <div
+            style={{
+              fontSize: "0.75rem",
+              letterSpacing: "0.12em",
+              color: "#C4714A",
+              fontWeight: 600,
+              textTransform: "uppercase",
+              marginBottom: 20,
+            }}
+          >
+            {t.europeTitle}
+          </div>
+          {t.europeParas.map((para, i) => (
+            <p key={`europe-${i}`} style={{ ...paraStyle, marginBottom: i < t.europeParas.length - 1 ? 20 : 0 }}>
               {para}
             </p>
           ))}
         </div>
 
-        {/* 右栏 */}
+        {/* 右栏：技能标签 + 说明 */}
         <div style={{ background: "#F2EEE8", borderRadius: "12px", padding: "32px" }}>
-          {/* 技能标签：始终双语，不切换 */}
-          <div style={{ marginBottom: 24 }}>
+          {/* 技能标签 */}
+          <div style={{ marginBottom: 28 }}>
             {TAGS.map((tag) => (
               <span
                 key={tag}
@@ -127,110 +174,13 @@ export default function ProfileSection() {
             ))}
           </div>
 
-          <div style={{ borderTop: "1px solid #E8E4DC", margin: "32px 0" }} />
+          {/* 分隔线 */}
+          <div style={{ borderTop: "1px solid #E8E4DC", marginBottom: 24 }} />
 
-          <div style={{ fontSize: "1rem", color: "#4a4744", lineHeight: 1.8 }}>
-            <div style={{ marginBottom: 12, fontWeight: 600 }}>
-              {lang === "zh" ? "语言" : "Languages"}
-            </div>
-            <div style={{ marginBottom: 24 }}>
-              {lang === "zh" ? "中文（母语）· 英文（工作语言）" : "Mandarin (Native) · English (Professional)"}
-            </div>
-
-            <div style={{ marginBottom: 12, fontWeight: 600 }}>
-              {lang === "zh" ? "教育背景" : "Education"}
-            </div>
-            <div style={{ marginBottom: 24 }}>
-              {/* MSc — 第一条，无上边线 */}
-              <div style={{ padding: "16px 0" }}>
-                MSc in Marketing · ALBA Graduate Business School, The American College of Greece · 2025–2026 · Athens
-              </div>
-              <div style={{ padding: "16px 0", borderTop: "0.5px solid #E8E4DC" }}>
-                BSc in Applied Physics · Hunan Institute of Engineering · 2009–2013
-              </div>
-            </div>
-
-            <div style={{ marginBottom: 12, fontWeight: 600 }}>
-              {lang === "zh" ? "工作经历" : "Experience"}
-            </div>
-            <div>
-              {lang === "zh" ? (
-                <>
-                  {/* Thinla Global — 第一条，无上边线 */}
-                  <div style={{ padding: "16px 0" }}>
-                    <div style={{ marginBottom: 4 }}>首席运营官兼联合创始人 · Thinla Global · 2021–2025 · 深圳</div>
-                    <div style={{ fontSize: "0.9rem", color: "#6b6864", marginBottom: 6 }}>
-                      从零创立并主导公司全面运营：搭建商业模式与业务流程，管理20人跨职能团队，负责客户项目全程推进。同时把控公司整体品牌策略，带队服务超过10个出海品牌客户，覆盖美妆、消费电子等品类，在市场上建立了真实的品牌口碑与行业认可度。
-                    </div>
-                    <div style={{ fontSize: "0.9rem", color: "#6b6864", fontStyle: "italic", marginBottom: 4 }}>
-                      Thinla Global 是我联合创办的一家专注于中国品牌出海的营销机构，帮助客户进入东南亚及中东市场，提供品牌定位、内容策略与 KOL 推广服务。
-                    </div>
-                    <div style={{ fontSize: "0.9rem", color: "#6b6864", fontStyle: "italic" }}>
-                      2025年，Thinla Global 获得投资方认可并完成收购。
-                    </div>
-                  </div>
-                  {/* ProitAV */}
-                  <div style={{ padding: "16px 0", borderTop: "0.5px solid #E8E4DC" }}>
-                    <div style={{ marginBottom: 4 }}>数字营销专家 · ProitAV · 2015–2019 · 深圳</div>
-                    <div style={{ fontSize: "0.9rem", color: "#6b6864" }}>
-                      负责品牌海外推广与内容运营，管理多平台社交媒体账号及 KOL 合作。
-                    </div>
-                  </div>
-                  {/* Al Hasoun */}
-                  <div style={{ padding: "16px 0", borderTop: "0.5px solid #E8E4DC" }}>
-                    <div style={{ marginBottom: 4 }}>业务拓展主管 · Al Hasoun Arabian Group · 2014–2015 · 迪拜</div>
-                    <div style={{ fontSize: "0.9rem", color: "#6b6864" }}>
-                      负责中东市场业务拓展，积累跨文化商务沟通与客户关系管理经验。
-                    </div>
-                  </div>
-                  {/* ZTE */}
-                  <div style={{ padding: "16px 0", borderTop: "0.5px solid #E8E4DC" }}>
-                    <div style={{ marginBottom: 4 }}>市场专员 · 中兴通讯 · 2013–2014 · 深圳</div>
-                    <div style={{ fontSize: "0.9rem", color: "#6b6864" }}>
-                      支持市场部日常运营，参与产品推广材料制作与活动执行。
-                    </div>
-                  </div>
-                </>
-              ) : (
-                <>
-                  {/* Thinla Global — 第一条，无上边线 */}
-                  <div style={{ padding: "16px 0" }}>
-                    <div style={{ marginBottom: 4 }}>COO & Co-Founder · Thinla Global · 2021–2025 · Shenzhen</div>
-                    <div style={{ fontSize: "0.9rem", color: "#6b6864", marginBottom: 6 }}>
-                      Co-founded and led the full operations of Thinla Global — building the business model, establishing operational processes, and managing a cross-functional team of 20. Oversaw overall brand strategy while leading client work for 10+ brands expanding into overseas markets across beauty, consumer electronics, and lifestyle. Built genuine market recognition and industry reputation from the ground up.
-                    </div>
-                    <div style={{ fontSize: "0.9rem", color: "#6b6864", fontStyle: "italic", marginBottom: 4 }}>
-                      Thinla Global was a marketing agency I co-founded, helping Chinese brands expand into Southeast Asian and Middle Eastern markets — covering brand positioning, content strategy, and influencer marketing.
-                    </div>
-                    <div style={{ fontSize: "0.9rem", color: "#6b6864", fontStyle: "italic" }}>
-                      In 2025, Thinla Global was acquired, recognized by investors for its market value and brand equity built.
-                    </div>
-                  </div>
-                  {/* ProitAV */}
-                  <div style={{ padding: "16px 0", borderTop: "0.5px solid #E8E4DC" }}>
-                    <div style={{ marginBottom: 4 }}>Digital Marketing Specialist · ProitAV · 2015–2019 · Shenzhen</div>
-                    <div style={{ fontSize: "0.9rem", color: "#6b6864" }}>
-                      Managed overseas brand promotion and multi-platform social media, including influencer partnerships.
-                    </div>
-                  </div>
-                  {/* Al Hasoun */}
-                  <div style={{ padding: "16px 0", borderTop: "0.5px solid #E8E4DC" }}>
-                    <div style={{ marginBottom: 4 }}>Business Development Executive · Al Hasoun Arabian Group · 2014–2015 · Dubai</div>
-                    <div style={{ fontSize: "0.9rem", color: "#6b6864" }}>
-                      Developed new business in the Middle East market, gaining hands-on experience in cross-cultural communication.
-                    </div>
-                  </div>
-                  {/* ZTE */}
-                  <div style={{ padding: "16px 0", borderTop: "0.5px solid #E8E4DC" }}>
-                    <div style={{ marginBottom: 4 }}>Marketing Assistant · ZTE Corporation · 2013–2014 · Shenzhen</div>
-                    <div style={{ fontSize: "0.9rem", color: "#6b6864" }}>
-                      Supported day-to-day marketing operations, contributing to product promotion and event execution.
-                    </div>
-                  </div>
-                </>
-              )}
-            </div>
-          </div>
+          {/* 学校说明 */}
+          <p style={{ fontSize: "0.95rem", color: "#6b6864", lineHeight: 1.8, margin: 0 }}>
+            {t.tagsNote}
+          </p>
         </div>
       </div>
     </section>

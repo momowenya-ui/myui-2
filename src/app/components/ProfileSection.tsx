@@ -1,6 +1,58 @@
 "use client";
 
+import { useState } from "react";
+import Image from "next/image";
 import { useLang } from "@/contexts/LangContext";
+
+const PHOTOS = [
+  { src: "/Prague-1.jpg",  rotate: -3,   top: 10,  left: 0   },
+  { src: "/Prague-2.jpg",  rotate: 2,    top: 40,  left: 95  },
+  { src: "/Progue-4.jpg",  rotate: -1.5, top: 15,  left: 200 },
+  { src: "/Prague-6.jpg",  rotate: 3,    top: 150, left: 20  },
+  { src: "/Prague-7.jpg",  rotate: -2,   top: 130, left: 155 },
+];
+
+function PhotoWall() {
+  const [hovered, setHovered] = useState<number | null>(null);
+  return (
+    <div
+      className="photo-wall"
+      style={{ position: "relative", height: 370, marginTop: 32 }}
+    >
+      {PHOTOS.map((photo, i) => (
+        <div
+          key={i}
+          className="photo-wall-item"
+          onMouseEnter={() => setHovered(i)}
+          onMouseLeave={() => setHovered(null)}
+          style={{
+            position: "absolute",
+            top: photo.top,
+            left: photo.left,
+            width: 170,
+            height: 210,
+            border: "4px solid #ffffff",
+            boxShadow: "2px 4px 12px rgba(0,0,0,0.12)",
+            borderRadius: 4,
+            overflow: "hidden",
+            transform: `rotate(${photo.rotate}deg) scale(${hovered === i ? 1.05 : 1})`,
+            transition: "transform 0.25s ease, z-index 0s",
+            zIndex: hovered === i ? 10 : i + 1,
+            cursor: "pointer",
+          }}
+        >
+          <Image
+            src={photo.src}
+            alt={`photo-${i + 1}`}
+            fill
+            style={{ objectFit: "cover", objectPosition: "center" }}
+            sizes="180px"
+          />
+        </div>
+      ))}
+    </div>
+  );
+}
 
 const TAGS = [
   "品牌策略 · Brand Strategy",
@@ -195,6 +247,8 @@ export default function ProfileSection() {
           <p style={{ fontSize: "0.95rem", color: "#6b6864", lineHeight: 1.8, margin: 0 }}>
             {TAGS_NOTE[lang]}
           </p>
+
+          <PhotoWall />
         </div>
       </div>
     </section>

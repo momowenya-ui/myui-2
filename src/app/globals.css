@@ -113,6 +113,23 @@ body {
   /* Connect */
   .connect-section { padding: 60px 6% !important; }
 
+  /* Photo wall — 2-col grid on mobile */
+  .photo-wall {
+    position: static !important;
+    height: auto !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px !important;
+    margin-top: 24px !important;
+  }
+  .photo-wall-item {
+    position: static !important;
+    width: 100% !important;
+    height: 150px !important;
+    top: auto !important;
+    left: auto !important;
+  }
+
   /* Typography */
   h1 { font-size: 1.15rem !important; }
 
